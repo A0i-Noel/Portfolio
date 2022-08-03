@@ -18,6 +18,7 @@ body #root {
     rgba(205, 79, 28, 1) 2%,
     rgba(9, 8, 9, 0.9556197478991597) 100%
   );
+  
 }
 
 body {
@@ -44,6 +45,7 @@ h2, h3 {
 p {
   color: white;
   font-family: 'Lora', serif;
+  letter-spacing: 1px;
 }
 
 a {
@@ -72,6 +74,7 @@ a:hover {
   top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .subtitle {
@@ -79,4 +82,25 @@ a:hover {
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* For smart phone below */
+@media screen and ( max-width:479px )
+{
+  .title {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .subtitle {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 }
