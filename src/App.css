@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Cinzel&family=Lora&display=swap');
+
+
+
 * {
   box-sizing: border-box;
 }
@@ -11,7 +15,7 @@ body #root {
   background: rgb(83, 79, 81);
   background: linear-gradient(
     117deg,
-    rgba(83, 79, 81, 1) 5%,
+    rgba(205, 79, 28, 1) 2%,
     rgba(9, 8, 9, 0.9556197478991597) 100%
   );
 }
@@ -26,14 +30,20 @@ body {
 }
 
 h1 {
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   color: white;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: 'Caveat', cursive;
   font-size: 55px;
   letter-spacing: 1px;
+}
+
+h2, h3 {
+  color: white;
+  font-family: 'Cinzel', serif;;
+}
+
+p {
+  color: white;
+  font-family: 'Lora', serif;
 }
 
 a {
@@ -52,4 +62,21 @@ a {
 a:hover {
   color: #fff;
   background: #000;
+  font-family: 'Lora', serif;
+}
+
+/* whole element css */
+
+.title {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.subtitle {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
